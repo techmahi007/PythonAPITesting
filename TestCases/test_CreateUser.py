@@ -8,7 +8,7 @@ url = "https://reqres.in/api/users"
 @pytest.fixture(scope="module")
 def start_exec():
     global file
-    file = open("C:\\Users\\mahimna.bhuskute\\Desktop\\Training Programs\\Python Automation July 2023\\Step by Step Rest API Testing using Python + Pytest +Allure\\CreateUser.json", 'r')
+    file = open("D:/Training_Programs/Python_Automation_July_2023/API_Testing_Python_Pytest_Allure/CreateUser.json", 'r')
 
 def test_create_new_user(start_exec):
     json_input = file.read()

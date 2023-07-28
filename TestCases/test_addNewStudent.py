@@ -4,7 +4,7 @@ import jsonpath
 
 def test_add_student_data():
     api_url = "https://thetestingworldapi.com/api/studentsDetails"
-    file = open("C:/Users/mahimna.bhuskute/Desktop/Training Programs/Python Automation July 2023/Step by Step Rest API Testing using Python + Pytest +Allure/RequestJson.json","r")
+    file = open("D:/Training_Programs/Python_Automation_July_2023/API_Testing_Python_Pytest_Allure/TestCases/RequestJson.json","r")
     request_json = json.loads(file.read())
     response = requests.post(api_url, request_json)
     print(response.text)
