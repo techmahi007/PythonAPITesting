@@ -1,0 +1,4 @@
+7700353
+{"status":"true","msg":"Add  data success"}
+{"status":"true","msg":"Add  data success"}
+{"status":"true","data":{"first_name":"Testing","middle_name":"M","last_name":"World","date_of_birth":"01/09/1995","TechnicalDetails":[{"id":161131,"language":["C++","Python"],"yearexp":"2","lastused":"2020","st_id":"7700353"}],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"7700353"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"7700353"}]}}
